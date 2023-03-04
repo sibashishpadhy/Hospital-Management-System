@@ -1,5 +1,6 @@
 package org.jsp.hospitalmanagementsystem.dao;
 
-public class TestDao {
+public class TestDao
+{
 
 }

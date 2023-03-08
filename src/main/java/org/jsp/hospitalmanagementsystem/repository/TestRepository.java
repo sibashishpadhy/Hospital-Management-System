@@ -1,5 +1,8 @@
 package org.jsp.hospitalmanagementsystem.repository;
 
-public interface TestRepository {
+import org.jsp.hospitalmanagementsystem.dto.Test;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface TestRepository extends JpaRepository<Test, Integer>{
 
 }
